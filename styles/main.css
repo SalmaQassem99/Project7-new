@@ -754,4 +754,15 @@ a {
   100% {
     transform: rotate(360deg);
   }
+}
+@keyframes rotatePhone {
+  0%, 10% {
+    transform: rotate(0deg);
+  }
+  40%, 60% {
+    transform: rotate(90deg);
+  }
+  95%, 100% {
+    transform: rotate(0deg);
+  }
 }/*# sourceMappingURL=main.css.map */

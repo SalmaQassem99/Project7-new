@@ -114,6 +114,7 @@ cardsText.forEach((cardItem) => {
       if (counter === cardsText.length) {
         const text = document.querySelector(".text-card .score-text");
         text.textContent = `${counter}/${cardsText.length}`;
+        text.setAttribute("text", `${counter}/${cardsText.length}`);
         successModal.style.visibility = "visible";
         successModal.classList.add("show");
         overlay.classList.add("show");
