@@ -206,7 +206,7 @@ $width: 85%;
     }
   }
   .cardContainer {
-    height: 36vh;
+    min-height: 36vh;
     @extend %fixed-position;
     transform-origin: left top;
     &.hide {
@@ -429,7 +429,6 @@ $width: 85%;
       }
       .match-cards {
         max-height: calc((100% - $gap-2) * 0.2);
-       
         gap: $gap;
         @include mediaQuery($medScreen_min_width) {
           & {

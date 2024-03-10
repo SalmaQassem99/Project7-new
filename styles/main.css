@@ -19,7 +19,6 @@ html {
 
 body {
   height: 100%;
-  overflow: hidden;
 }
 
 * {
@@ -262,7 +261,7 @@ a {
   color: #000;
 }
 .game .cardContainer {
-  height: 36vh;
+  min-height: 36vh;
   transform-origin: left top;
 }
 .game .cardContainer.hide {
